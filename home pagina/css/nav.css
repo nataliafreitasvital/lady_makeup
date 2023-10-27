@@ -1,0 +1,61 @@
+section {
+    background-color: rgb(254, 254, 254);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.menu {
+    display: flex;
+}
+.menu li a {
+    margin: 30px;
+   
+    color: rgb(0, 0, 0);
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+header{
+    background-color: rgb(125, 16, 16);
+    color:  rgb(125, 16, 16);
+    padding: 10px;
+}
+
+.img{
+    display: flex;
+    
+    
+}
+
+.usuario{
+    width: 40px;
+}
+
+nav{
+
+display: grid;
+flex-direction: row;
+grid-template-columns: repeat(3, 1fr);
+
+}
+
+.usua{
+ display: flex;
+align-items: center;
+padding-top: 10%;
+}
+.carrinho{
+    width: 40px;
+    margin: 5px;
+}
+
+.coracao{
+    width: 40px;
+    margin: 5px;
+}

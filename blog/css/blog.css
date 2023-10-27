@@ -1,0 +1,52 @@
+.post{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+  .carretel-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+.cards{
+    display: flex;
+    margin-top: 90px;
+  } 
+
+ .img-cards{
+  margin: 5px;
+  width: 20vw;
+  height: 30vh;
+ } 
+
+.img-cards img{
+  width: 100%;
+  height: 80%;
+}
+
+
+
+  .blog-escolhido{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  }
+
+  .text-blog h1 {
+    display: flex;
+    margin-left: 20px;
+    color: #c0705b;
+  }
+  
+.text-blog p {
+  margin-left: 20px;
+  font-size: larger;
+  text-align: center;
+  
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <title>home pag</title>
+
+</head>
+
+<body>
+
+  <!--COMEÇO-->
+  <!--nav-->
+  <header>
+    Faça da natureza sua maior beleza
+  </header>
+
+  <nav>
+    <div class="lupa">
+      <img src="img/lupa (1).png" alt="" width="40px">
+    </div>
+
+    <!--essa dive e na onde fica nosso logo-->
+    <div class="logo">
+      <img src="img/logo-removebg-preview.png" alt="">
+    </div>
+
+    <div class="usua">
+      <a href="carrinho.html"><img class="carrinho" src="img/sacola-de-compras.png" alt="" srcset=""></a>
+      <a href="usuario.html"><img class="usuario" src="img/usuario.png" alt="" srcset=""></a>
+    </div>
+  </nav>
+
+
+
+
+  <section>
+
+    <ul class="menu">
+      <li><a href="link1">Home</a></li>
+      <li><a href="link2">Produtos</a></li>
+      <li><a href="link3">Sobre nos</a></li>
+      <li><a href="link4">Blog</a></li>
+    </ul>
+
+  </section>
+
+
+  <!--fim da nav -->
+
+
+
+  <!--COMEÇO DO SLIDE-->
+  <div class="container">
+
+    <div class="slider">
+
+      <div class="sliders">
+        <!--radio buttons (as bolinhas)-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+
+        <!--slide images-->
+        <div class="slide first">
+          <img src="img/foto1.webp" alt="ft1">
+        </div>
+
+        <div class="slide">
+          <img src="img/foto2.jpg" alt="ft2">
+        </div>
+
+        <div class="slide">
+          <img src="img/foto3.jpg" alt="ft3">
+        </div>
+
+        <div class="slide">
+          <img src="img/foto4.jpg" alt="ft4">
+        </div>
+
+        <!--bolinhas de navegação-->
+        <div class="navegacao-auto">
+          <div class="auto-bnt1"></div>
+          <div class="auto-bnt2"></div>
+          <div class="auto-bnt3"></div>
+          <div class="auto-bnt4"></div>
+        </div>
+
+      </div>
+
+      <div class="manual-navegacao">
+        <label for="radio1" class="manual-bnt"></label>
+        <label for="radio2" class="manual-bnt"></label>
+        <label for="radio3" class="manual-bnt"></label>
+        <label for="radio4" class="manual-bnt"></label>
+      </div>
+
+    </div>
+
+  </div>
+  <!--FIM DO SLIDE-->
+
+
+  <!--COLEÇÕES-->
+  <div class="colecoes">
+    <a href="img/ft1.webp" class="item"> <img src="img/ft1.webp" alt="colecao1">
+      <p>colecao1</p>
+    </a>
+    <a href="img/ft2.webp" class="item"> <img src="img/ft2.webp" alt="colecao2">
+      <p>colecao2</p>
+    </a>
+    <a href="img/ft3.webp" class="item"> <img src="img/ft3.webp" alt="colecao3">
+      <p>colecao3</p>
+    </a>
+    <a href="img/ft4.webp" class="item"> <img src="img/ft4.webp" alt="colecao4">
+      <p>colecao4</p>
+    </a>
+  </div>
+
+
+  <!--COLEÇÕES-->
+
+
+
+  <!--LANÇAMENTOS-->
+  <div class="lancamentos">
+    <hr size="2" align="left">
+    <h1>LANÇAMENTOS</h1>
+    <hr size="2" align="right">
+  </div>
+
+
+  <section class="produtos">
+
+
+    <div class="prod-lancamento">
+      <div class="curti"><!--class do coracao da curtida-->
+        <img src="img/curtida.png" height="28">
+      </div>
+      <div class="card-produto"><!--class para posicionar dentro do grid-->
+        <div class="img-produto">
+          <img src="img/produto-f.png" alt="produto-f"><!--class das fotos dos produtos-->
+        </div>
+        <p class="descricao">BATOM ROSE MATTE</p><!--class das descriçoes e materiais do produto-->
+        <p class="preco">R$ 39,50</p>
+      </div>
+      <button class="card-button" onclick="abrirCarrinho()">Adicionar Ao Carrinho <img src="/img/carrinho.png"
+          alt=""></button><!--class do botao do carrinho-->
+    </div>
+    
+    <div class="prod-lancamento">
+      <div class="curti"><!--class do coracao da curtida-->
+        <img src="img/curtida.png" height="28">
+      </div>
+      <div class="card-produto"><!--class para posicionar dentro do grid-->
+        <div class="img-produto">
+          <img src="img/produto-f.png" alt="produto-f"><!--class das fotos dos produtos-->
+        </div>
+        <p class="descricao">BATOM ROSE MATTE</p><!--class das descriçoes e materiais do produto-->
+        <p class="preco">R$ 39,50</p>
+      </div>
+      <button class="card-button" onclick="abrirCarrinho()">Adicionar no carrinho <img src="/img/carrinho.png"
+          alt=""></button><!--class do botao do carrinho-->
+    </div>
+
+    
+    <div class="prod-lancamento">
+      <div class="curti"><!--class do coracao da curtida-->
+        <img src="img/curtida.png" height="28">
+      </div>
+      <div class="card-produto"><!--class para posicionar dentro do grid-->
+        <div class="img-produto">
+          <img src="img/produto-f.png" alt="produto-f"><!--class das fotos dos produtos-->
+        </div>
+        <p class="descricao">BATOM ROSE MATTE</p><!--class das descriçoes e materiais do produto-->
+        <p class="preco">R$ 39,50</p>
+      </div>
+      <button class="card-button" onclick="abrirCarrinho()">Adicionar no carrinho <img src="/img/carrinho.png"
+          alt=""></button><!--class do botao do carrinho-->
+    </div>
+
+    
+    <div class="prod-lancamento">
+      <div class="curti"><!--class do coracao da curtida-->
+        <img src="img/curtida.png" height="28">
+      </div>
+      <div class="card-produto"><!--class para posicionar dentro do grid-->
+        <div class="img-produto">
+          <img src="img/produto-f.png" alt="produto-f"><!--class das fotos dos produtos-->
+        </div>
+        <p class="descricao">BATOM ROSE MATTE</p><!--class das descriçoes e materiais do produto-->
+        <p class="preco">R$ 39,50</p>
+      </div>
+      <button class="card-button" onclick="abrirCarrinho()">Adicionar no carrinho <img src="/img/carrinho.png"
+          alt=""></button><!--class do botao do carrinho-->
+    </div>
+
+
+
+  </section>
+
+
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

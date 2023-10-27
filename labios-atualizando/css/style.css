@@ -1,0 +1,310 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+.alto-contraste{
+  margin: auto;
+  
+}
+
+ /*nav*/
+ section {
+  background-color: rgb(254, 254, 254);
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.menu {
+  display: flex;
+}
+.menu li a {
+  margin: 30px;
+ 
+  color: rgb(0, 0, 0);
+}
+
+li {
+  list-style-type: none;
+  
+}
+/*faixa de cor com a frase */
+header{
+  background-color:#c0705b ;
+  color:  #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+.img{
+  display: flex;
+  
+  
+}
+
+.usuario{
+  width: 40px;
+  margin: 50px;
+  display: flex;
+  justify-content: end;
+}
+
+nav{
+
+display: grid;
+flex-direction: row;
+grid-template-columns: repeat(3, 1fr);
+
+}
+
+.pesquisa {
+  margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.pesquisa img {
+  margin: 3%;
+  width: 5%;
+}
+
+.input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  padding-left: 0;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: inherit;
+}
+
+.input:focus {
+  outline: none;
+}
+
+/*logo*/
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 40%;
+  height: 60%;
+}
+
+/*USUARIO*/
+.usuario{
+display: flex;
+align-items: center;
+padding-top: 10%;
+justify-content: right;
+}
+
+/*
+.carrinho{
+  width: 40px;
+  margin: 5px;
+}
+
+.coracao{
+  width: 40px;
+  margin: 5px;
+}*/
+
+.usuario a{
+  width: 70%;
+}
+.icones{
+  width: 70%;
+}
+
+.icone{
+  width: 10%;
+  margin: 5%;
+}
+
+
+/*fim da nav*/
+
+.linha{
+  background-color: #c2956e;
+  margin: 0;
+  text-align: center;
+  font-size: medium;
+  color: #f2f2f2;
+  padding: 5px;
+}
+
+
+/*header*/
+
+.cabecalho{
+  background-color: #8e5431;
+  text-align: center;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  height: 200px;
+}
+
+.chamada{
+  text-align: center;
+  color: #0c0c0c;
+}
+
+.topnav {
+  background-color: #c98860;
+}
+
+.topnav a {
+  background-color: #c98860;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: white; 
+}
+
+
+/*imagem do "banner"*/
+.imagem{
+   display: flex;
+   justify-content: center;
+
+}
+
+.imagem img{
+   margin-top: 5%;
+   margin: auto;
+   width: 70%; /*largura*/
+   height: 50%; 
+}
+
+/*corpo do site*/
+
+.topo{
+  display: grid;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  text-align: center;
+}
+
+.linha2{
+  display: flex;
+  margin: 30px;
+  color: black;
+  padding: 0;
+  margin-top: 3%;
+}
+
+.linha-separacao{
+   display: flex;
+   background-color: black;
+   margin: 20px;
+   padding: 3.5px;
+   width: 760px; /*largura*/
+   height: 0.1rem; /*altura 0.5px*/
+   text-align: center;
+   margin-right: 2%;
+}
+
+.linha-separacao2{
+  display: flex;
+  background-color: black;
+  margin: 20px;
+  padding: 3.5px;
+  width: 760px ; /*largura*/
+  height: 0.1rem; /*altura 0.5px*/
+  text-align: center;
+  margin-left: 2%;
+}
+
+/*COMECO DA ESTILIZAÇAO DO ALTO-CONTRASTE*/
+
+.alto-contraste{
+   display: flex;
+   height: 5vh;
+   margin: 0;
+   transition: backgroud 0.2s linear;
+   background-color: #ffffff;
+   justify-content: right;
+   flex-direction: center;
+
+}
+
+body.dark{
+  background: #161b1f;     /* #232c35*/
+}
+
+.checkbox {
+   opacity: 0;
+   position: absolute;
+}
+
+.label{
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 5px;
+  position: relative;
+  height: 26px;
+  width: 50px;
+
+  transform: scale(1.5);
+}
+
+.label .ball{
+   background-color: #fff;
+   border-radius: 50%;
+   position: absolute;
+   top: 2px;
+   left: 2px;
+
+   height: 22px;
+   width: 22px;
+
+   transform: translateX(0px);
+   transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball{
+  transform: translateX(24px);
+}
+
+.fa-moon{
+  color: #f1c40f;
+}
+
+.fa-sun{
+  color: #f39c12;
+}
+
+/*FIM DO ALTO-CONTRASTE*/
+
+
